@@ -7,6 +7,8 @@ export const SearchForm = ({submit}) => {
   const handleChange = (e) => {
     setValue(e.target.value);
   }
+
+  console.log(123);
   const handleSubmit = (e) => {
     e.preventDefault();
     submit(value);
